@@ -1,0 +1,25 @@
+body {
+  background-image: url(./assets/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  font-family: "Bellefair", sans-serif;
+  margin: 0;
+}
+
+.bottom-home-text {
+  font-size: 28px;
+
+}
+.home-text {
+  position: absolute;
+  top: 387px;
+  left: 178px;
+}
+.space-word {
+  font-size: 150px;
+  margin-bottom: 44px;
+}
+.top-home-text {
+  font-size: 28px;
+}
