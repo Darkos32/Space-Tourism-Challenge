@@ -1,25 +1,67 @@
 body {
   background-image: url(./assets/home/background-home-desktop.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   color: white;
-  font-family: "Bellefair", sans-serif;
+  font-family: 'Barlow Condensed';
   margin: 0;
 }
 
+nav{
+  letter-spacing: 0.16875rem;
+  background-color: rgba(255,255,255,0.04);
+  position: absolute;
+  top :40px;
+  right: 0;
+  width: 58%;
+}
 .bottom-home-text {
+  color: #D0D6F9;
   font-size: 28px;
 
+}
+.explore-home{
+  display: flex;
+  background-color: white;
+  border-radius: 100%;
+  color: #0B0D17;
+  font-family: 'Bellefair';
+  font-size: 32px;
+  height: 274px;
+  justify-content: center;
+  letter-spacing: 0.125rem;
+  position: absolute;
+  top: 495px;
+  right: 165px;
+  text-align: center;
+  width: 274px;
+}
+.explore-word{
+  margin: auto;
+  text-transform: uppercase;
 }
 .home-text {
   position: absolute;
   top: 387px;
   left: 178px;
+  width: 30%;
+}
+.nav-item{
+  color: white;
+  text-decoration: none;
+}
+.nav-number{
+  font-weight: bold;
+  margin: 11px;
 }
 .space-word {
+  font-family: 'Bellefair';
   font-size: 150px;
-  margin-bottom: 44px;
+  margin: 24px 0;
 }
 .top-home-text {
+  color: #D0D6F9;
   font-size: 28px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
