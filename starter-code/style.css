@@ -6,14 +6,61 @@ body {
   font-family: 'Barlow Condensed';
   margin: 0;
 }
-
+hr{
+  position: absolute;
+  top : 82px;
+  left: 217px;
+  width: 32.847222%;
+}
 nav{
-  letter-spacing: 0.16875rem;
+  letter-spacing: 0.16875rem;  
   background-color: rgba(255,255,255,0.04);
+  display: flex;
+  height: 96px;
+  justify-content: center;
   position: absolute;
   top :40px;
   right: 0;
   width: 58%;
+}
+.active{
+  border-bottom-style: solid;
+  padding-bottom: 35.5px;
+}
+.brand-1{
+  border-bottom-right-radius: 100%;
+  border-top-left-radius: 100%;
+}
+.brand-2{
+  position: absolute;
+  border-bottom-left-radius: 100%;
+  border-top-right-radius: 100%;
+  top: 0;
+  right:0 ;
+}
+.brand-3{
+  position: absolute;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  bottom: 0;
+  right: 0;
+}
+.brand-4{
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+.brand-out{
+  background-color: #0B0D17;
+  height: 48px;
+  position: absolute;
+  top: 64px;
+  left: 55px;
+  width: 48px;
+}
+.brand-out> div{
+  background-color: white;
+  height: 24px;
+  width: 24px;
 }
 .bottom-home-text {
   color: #D0D6F9;
@@ -48,7 +95,13 @@ nav{
 }
 .nav-item{
   color: white;
+  font-size: 16px;
+  letter-spacing: 0.16875rem;
+  margin: 0 46px;
   text-decoration: none;
+}
+.nav-links{
+  margin: auto 0;
 }
 .nav-number{
   font-weight: bold;
